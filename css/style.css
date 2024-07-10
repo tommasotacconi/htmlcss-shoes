@@ -10,20 +10,53 @@ body {
     font-family: 'Rubik Mono One', sans-serif;
 }
 
+h1 {
+    font-size: 3.5rem;
+}
+
+section {
+    position: relative;
+}
+
+img {
+    width: 650px;
+}
+
 /* Utilities */
 .full-page {
     height: 100vh;
     color: #fff;
 }
 
+.full-page .content {
+    min-width: 900px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    text-align: center;
+}
+
 #light-shoe {
     background-color: red;
+}
+
+#light-shoe h1{
+    color: yellow;
 }
 
 #sneaker {
     background-color: green;
 }
 
+#sneaker h1{
+    color: yellow;
+}
+
 #converse {
-    background-color: yellow
+    background-color: yellow;
+}
+
+#converse h1 {
+    color: green;
 }
