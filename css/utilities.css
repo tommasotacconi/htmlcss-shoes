@@ -1,0 +1,88 @@
+/* Utilities */
+:root {
+    --nav-pd: 5px;
+    --bg-pd-sm: 15px;
+    --bg-pd-lg: 40px;
+    --mh-sm: 50px;
+    --mh-lg: 250px;
+    --mh-xl: 300px;
+    --mh-xxl: 400px;
+    --mh-xxxl: 700px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.container-lg {
+    max-width: 900px;
+    margin: 0 auto;
+    min-height: var(--mh-sm);
+    /* border: 3px dashed burlywood; */
+}
+
+.container-xl {
+    max-width: 1100px;
+    margin: 0 auto;
+    min-height: var(--mh-xxl)
+}
+
+.dashed-border{
+    border: 3px dashed orange
+}
+
+.flex-row-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: var(--space); */
+}
+
+.flex-row-space-between {
+    display: flex;
+    justify-content: space-between;
+    row-gap: 0;
+    column-gap: 10px
+}
+
+.flex-row-align-center {
+    display: flex;
+    align-items: center;
+    /* gap: var(--space); */
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.flex-item {
+    flex-basis: 200px;
+}
+
+.bdColor-paglia {
+    background-color: burlywood;
+}
+
+.bdColor-blu-cadetto {
+    background-color: cadetblue;
+}
+
+.bdColor-blu-lavanda {
+    background-color: cornflowerblue ;
+}
+
+.bdColor-cioccolato {
+    background-color: chocolate
+}
+
+.bdColor-black {
+    background-color: black;
+}
