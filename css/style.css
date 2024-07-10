@@ -6,6 +6,11 @@
 }
 
 /* Generics */
+html{
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Rubik Mono One', sans-serif;
 }
@@ -82,7 +87,7 @@ nav li {
 .top-right-menu a{
     color: #000;
     background-color: #fff;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     display: inline-block;
     margin-right: 20px;
     width: 50px;
