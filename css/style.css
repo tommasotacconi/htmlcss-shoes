@@ -22,6 +22,14 @@ img {
     width: 650px;
 }
 
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
 /* Utilities */
 .full-page {
     height: 100vh;
@@ -59,4 +67,27 @@ img {
 
 #converse h1 {
     color: green;
+}
+
+.top-right-menu {
+    position: fixed;
+    top: 30px;
+    right: 40px;
+}
+
+nav li {
+    float: left;
+}
+
+.top-right-menu a{
+    color: #000;
+    background-color: #fff;
+    font-size: 1.5rem;
+    display: inline-block;
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
 }
