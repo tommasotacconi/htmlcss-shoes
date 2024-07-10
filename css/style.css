@@ -11,3 +11,19 @@ body {
 }
 
 /* Utilities */
+.full-page {
+    height: 100vh;
+    color: #fff;
+}
+
+#light-shoe {
+    background-color: red;
+}
+
+#sneaker {
+    background-color: green;
+}
+
+#converse {
+    background-color: yellow
+}
